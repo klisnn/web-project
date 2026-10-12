@@ -17,3 +17,22 @@ color: green;
 p {
 font-size: 18px;
 }
+#about {
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#about h2 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    #about {
+        padding: 12px;
+    }
+
+    #about p {
+        overflow-wrap: break-word;
+    }
+}
